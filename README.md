@@ -1,14 +1,6 @@
 # Market Data ETL Platform (Airflow + Python + SQL)
 
 A production-style **batch ETL pipeline** that ingests daily market data, validates it, transforms it into analytics-ready tables, and loads it into a PostgreSQL warehouse orchestrated by **Apache Airflow**.
-
-This is designed to match data-engineering roles that focus on:
-- building and maintaining scalable ETL pipelines
-- Python + SQL transformations
-- orchestration (Airflow)
-- robust data quality checks + audit logging
-- Linux/Docker-based workflows
-
 ---
 
 ## Architecture
