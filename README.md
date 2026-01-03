@@ -97,9 +97,4 @@ Environment variables (optional):
 └── docker-compose.yml
 ```
 
----
-
-## Notes
-- Stooq symbols use the format like `aapl.us`, `msft.us`, `tsla.us`.
-- If Stooq is blocked in your network, you can switch to the synthetic generator in `src/ingestion/synthetic.py`.
 
