@@ -1,0 +1,16 @@
+[project]
+name = "market-data-etl-platform"
+version = "0.1.0"
+description = "Airflow-orchestrated market data ETL (Python + SQL + Postgres)."
+requires-python = ">=3.10"
+authors = [{name="Jeevan Reddy"}]
+dependencies = []
+
+[tool.ruff]
+line-length = 100
+select = ["E","F","I","B","UP"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

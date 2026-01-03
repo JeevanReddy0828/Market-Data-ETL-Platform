@@ -1,0 +1,17 @@
+pipeline:
+  symbols:
+    - aapl.us
+    - msft.us
+    - tsla.us
+    - nvda.us
+  # default date range for CLI runs; Airflow runs "yesterday" daily
+  start_date: "2024-01-01"
+  end_date: "2024-01-31"
+
+storage:
+  raw_dir: "data/raw"
+  staged_dir: "data/staged"
+
+warehouse:
+  # If WAREHOUSE_URL env var is set, it overrides this.
+  url: "postgresql+psycopg2://warehouse:warehouse@localhost:5432/market"
